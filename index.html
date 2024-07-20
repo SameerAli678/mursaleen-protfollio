@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -15,211 +15,257 @@
               white: "#F2F2F2",
               "light-gray": "#BDBDBD",
               "dark-gray": "#828282",
-              gray:" #232732",
-              Skyblue:" #24272C"
-
-
-
+              gray: " #232732",
+              Skyblue: " #24272C",
+              purple: " #7733FF",
+              yellow: "#F7A21E",
             },
           },
         },
       };
     </script>
     <title>protfollio 2</title>
-</head>
-<body>
-    <div class=" bg-gray h-[2000px] w-full">
-        <nav class="grid grid-cols-5 md:grid-cols-3  gap-3 justify-evenly items-center">
-            <button class=" flex w-[80px] h-[30px] text-white bg-black items-center justify-center rounded-xl text-sm cursor-pointer  m:hidden "> contact</button>
-            <button class=" flex  w-[80px] h-[30px] text-white bg-Skyblue items-center justify-center rounded-2xl text-sm ">Resume</button>
-            <button class=" flex  w-[80px] h-[30px] text-white bg-Skyblue items-center justify-center rounded-2xl text-sm">about</button>
-            <button class=" flex  w-[80px] h-[30px] text-white bg-Skyblue items-center justify-center rounded-2xl text-sm ">certificate</button>
-            <button class=" flex  w-[80px] h-[30px] text-white bg-Skyblue items-center justify-center rounded-2xl text-sm ">projects</button>
-            <img src="./logo/nevbar.svg" class="flex md:hidden "/>
-        </nav>
-        <i class="fa-solid fa-burger text-red md:hidden flex text-xl"></i>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </head>
+  <body class="bg-gray">
+    <div class="bg-gray h-[2000px] w-full">
+      <!-- <nav
+        class="grid grid-cols-6 md:grid-cols-3 gap-3 justify-evenly items-center"
+      >
+        <button
+          class="flex w-[80px] h-[30px] text-white bg-black items-center justify-center rounded-xl text-sm cursor-pointer sm:hidden"
+        >
+          contact
+        </button>
+        <button
+          class="flex w-[80px] h-[30px] text-white bg-Skyblue items-center justify-center rounded-2xl text-sm"
+        >
+          Resume
+        </button>
+        <button
+          class="flex w-[80px] h-[30px] text-white bg-Skyblue items-center justify-center rounded-2xl text-sm"
+        >
+          about
+        </button>
+        <button
+          class="flex w-[80px] h-[30px] text-white bg-Skyblue items-center justify-center rounded-2xl text-sm"
+        >
+          certificate
+        </button>
+        <button
+          class="flex w-[80px] h-[30px] text-white bg-Skyblue items-center justify-center rounded-2xl text-sm"
+        >
+          projects
+        </button>
+        <img src="./logo/nevbar.svg" class="flex md:hidden justify-end" />
+      </nav> -->
+      <!-- <i class="fa-solid fa-burger text-red md:hidden flex text-xl"></i> -->
+      <nav class="flex justify-end md:justify-center items-end ">
+        <ul class=" hidden md:flex justify-center gap-5 sm:gap-3">
+          <li
+            class="flex w-[80px] h-[30px] text-white bg-black cursor-pointer items-center justify-center rounded-xl text-xs cursor-pointer"
+          >
+            contact
+          </li>
+          <li
+            class="flex w-[80px] h-[30px] text-white bg-Skyblue cursor-pointer items-center justify-center rounded-2xl text-xs"
+          >
+            Resume
+          </li>
+          <li
+            class="flex w-[80px] h-[30px] text-white bg-Skyblue cursor-pointer items-center justify-center rounded-2xl text-xs"
+          >
+            about
+          </li>
+          <li
+            class="flex w-[80px] h-[30px] text-white bg-Skyblue cursor-pointer items-center justify-center rounded-2xl text-xs"
+          >
+            certificate
+          </li>
+          <li
+            class="flex w-[80px] h-[30px] text-white bg-Skyblue cursor-pointer items-center justify-center rounded-2xl text-xs"
+          >
+            projects
+          </li>
+        </ul>
+        <img
+          src="./logo/nevbar.svg"
+          class="flex md:hidden justify-end items-end cursor-pointer"
+        />
+      </nav>
+      <!-- herrow section -->
+      <div class="flex justify-center">
+        <img
+          src="./logo/gril.svg"
+          alt=" gril"
+          class="flex w-[300px] justify-center i"
+        />
+      </div>
+
+      <div class="grid grid-col-1 justify-center items-center">
+        <a class="flex text-white justify-center">HeY</a>
+        <h2 class="flex text-white font-bold justify-center text-xl">
+          I’m Priti Jadhav
+        </h2>
+        <h3 class="flex text-white gap-2 justify-center">
+          Machine learning<a class="text-red gap-x-2">Engineer!</a>
+        </h3>
+        <p class="flex flex-col justify-center gap-0 text-white text-xs">
+          A highly motivated student studying Artificial Intelligence and
+          <br />
+          Machine Learning. Actively seeking opportunities to apply my
+          <br />
+          skills and knowledge to real-world projects and contribute to the
+          <br />
+          advancement of the industry.
+        </p>
+      </div>
+      <!-- Next -->
+      <div class="flex gap-x-8 justify-center items-center py-6">
+        <li
+          class="flex w-[80px] h-[30px] text-white bg-Skyblue items-center justify-center rounded-2xl text-xs"
+        >
+          learn more
+        </li>
+        <li
+          class="flex w-[80px] h-[30px] text-white bg-Skyblue items-center justify-center rounded-2xl text-xs"
+        >
+          contact me
+        </li>
+      </div>
+      <!-- Next -->
+      <div class="grid grid-col-1 md:grid-cols-2 justify-center">
+        <div class="">
+          <img src="./logo/gril pic.svg" alt=" gril" class="flex w-[220px]" />
+        </div>
+        <div class="flex flex-col">
+          <h4 class="flex font-semibold text-white">About me</h4>
+          <p class="flex text-xs text-white text-light">
+            I am actively seeking opportunities to<br />
+            apply my acquired skills and knowledge<br />
+            to real-world projects. My educational<br />
+            background has equipped me with a solid <br />foundation in AI and
+            ML algorithms, data<br />
+            analysis, and programming languages<br />such as Python.
+            Additionally, I have gained<br />
+            practical experience through hands-on<br />
+            projects, both independently and<br />
+            collaboratively.
+          </p>
+        </div>
+      </div>
+      <!-- next  -->
+      <div class="flex text-white justify-center py-6">projects</div>
+
+      <!-- Next -->
+      <div class="flex justify-center py-6">
+        <div class="flex w-[230px] md:w-[270px] bg-purple h-[5px] rounded-l-lg"></div>
+        <div class="flex w-[90px] md:w-[120px] bg-yellow h-[5px] rounded-r-lg"></div>
+      </div>
+      <!-- Next  -->
+      <div class="flex items-center justify-center gap-2 md:gap-10">
+        <li
+          class="flex w-[100px] h-[20px] text-white text-xs bg-purple rounded-xl justify-center cursor-pointer"
+        >
+          phython
+        </li>
+        <li
+          class="flex w-[100px] h-[20px] text-white text-xs bg-Skyblue justify-center rounded-xl cursor-pointer"
+        >
+          machine leaning
+        </li>
+        <li
+          class="flex w-[100px] h-[20px] text-white text-xs bg-Skyblue justify-center rounded-xl cursor-pointer-"
+        >
+          NLP
+        </li>
+      </div>
+      <!-- Next  -->
+      <div class="grid grid-col-1 md:grid-cols-2 justify-center gap-x-[100px] py-9">
+        <div class="flex order-1 ">
+          <img src="./logo/brian.svg" alt="Brian" class="w-[100px]" />
+          <img src="./logo/mobile.svg" alt="Mobile" class="w-[100px]" />
+          <img src="./logo/computer.svg" alt="computer" class="w-[100px]" />
+        </div>
+        <div class=" flex">
+          <img src="./logo/Component.svg" alt="" class="flex w-[300px]" />
+        </div>
+
+        <!-- <div
+          class="flex flex-col w-[200px] h-[250px]  bg-gray-800 items-center justify-center py-0 rounded-2xl"
+        >
+          <img src="./logo/big brian.svg " alt=" bid brian" class="w-[220px] h-[130px] items-start py-0" />
+        <h7 class=" flex text-white"> Content Analyzer</h7>
+        <p class="flex text-xs text-white justify-center items-center"> A robust tool designed for end<br> content creators, bloggers writers</p>
+        </div> -->
+      </div>
+      <!-- Next  -->
+      <div class="flex justify-center py-6">
+        <div class="flex w-[230px] md:w-[270px] bg-purple h-[5px] rounded-l-lg"></div>
+        <div class="flex w-[90px] md:w-[120px] bg-yellow h-[5px] rounded-r-lg"></div>
+      </div>
+      <!-- Next  -->
+
+      <div class="flex justify-center items-center py-6">
+        <li
+          class="flex w-[100px] h-[20px] text-white text-xs bg-purple rounded-xl justify-center items-center"
+        >
+          languages
+        </li>
+      </div>
+      <!-- Next  -->
+      <div class="flex justify-center items-center gap-x-4 md:gap-x-9">
+        <img
+          src="./logo/left arow.svg"
+          alt=" arow"
+          class="flex w-[50px] cursor-pointer"
+        />
+        <img
+          src="./logo/gril computer.svg"
+          alt=" gril"
+          class="flex w-[200px] cursor-pointer"
+        />
+        <img
+          src="./logo/right erow.svg"
+          alt="right arow"
+          class="flex w-[50px] cursor-pointer"
+        />
+      </div>
+      <!-- Next  -->
+      <div class="flex justify-center py-6">
+        <div class="flex w-[230px] md:w-[270px] bg-purple h-[5px] rounded-l-lg"></div>
+        <div class="flex w-[90px] md:w-[120px] bg-yellow h-[5px] rounded-r-lg"></div>
+      </div>
+      <!-- Next  -->
+      <div class="flex justify-center items-center py-6">
+        <img src="./logo/white box.svg" alt=" box " class="flex w-[300px] md:w-[400px]" />
+      </div>
+      <!-- Next  -->
+      <div class="grid grid-col-1  md:grid-cols-2  justify-center gap-0 px-9">
+        <img src="./logo/last gril.svg" alt="last" class="flex w-[250px]" />
+        <div class="flex flex-col  items-center gap-y-4">
+          <div class="">
+            <input
+              type=""
+              placeholder="Name*"
+              class="w-[230px] h-[30px] bg-zinc-800 rounded-lg"
+            />
+          </div>
+          <div class="">
+            <input
+              type=""
+              placeholder="Email iD*"
+              class="w-[230px] h-[30px] bg-zinc-800 rounded-lg"
+            />
+          </div>
+          <div class="">
+            <input
+              type=""
+              placeholder="Massage"
+              class="w-[230px] h-[100px] bg-zinc-800 rounded-lg  ">
+          </div>
+          <button class="flex  bg-zinc-800 h-[30px] w-[100px] rounded-lg items-center justify-center text-light-gray">send</button>
+        </div>
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>
